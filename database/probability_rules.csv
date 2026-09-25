@@ -1,0 +1,19 @@
+rule_id,disease_id,min_probability,max_probability,display_level,action
+1,1,0.0,0.3,general,Show general educational guidance.
+2,1,0.3,0.7,follow_up,Show general guidance and suggest discussing the result with a healthcare professional if appropriate.
+3,1,0.7,1.01,higher_screening_probability,Emphasize that this is a model-estimated probability and recommend professional evaluation.
+4,2,0.0,0.3,general,Show general educational guidance.
+5,2,0.3,0.7,follow_up,Show general guidance and suggest professional evaluation when appropriate.
+6,2,0.7,1.01,higher_screening_probability,Emphasize model-estimated probability and recommend professional evaluation.
+7,3,0.0,0.3,general,Show general educational guidance.
+8,3,0.3,0.7,follow_up,Show general guidance and suggest professional evaluation.
+9,3,0.7,1.01,higher_screening_probability,Emphasize professional evaluation; avoid individualized kidney diet restrictions without clinical data.
+10,4,0.0,0.3,general,Show general educational guidance.
+11,4,0.3,0.7,follow_up,Show general guidance and suggest clinical evaluation.
+12,4,0.7,1.01,higher_screening_probability,Emphasize that the result is a screening probability and recommend clinical evaluation.
+13,5,0.0,0.3,general,Show general educational/supportive guidance.
+14,5,0.3,0.7,follow_up,Suggest clinical evaluation when symptoms or other concerns are present.
+15,5,0.7,1.01,higher_screening_probability,Emphasize that X-ray ML output is not a standalone diagnosis and recommend clinical evaluation.
+16,6,0.0,0.3,general,Show general educational guidance.
+17,6,0.3,0.7,follow_up,Show general guidance and suggest professional evaluation if appropriate.
+18,6,0.7,1.01,higher_screening_probability,Emphasize that voice-model output is a screening probability and recommend clinical evaluation.

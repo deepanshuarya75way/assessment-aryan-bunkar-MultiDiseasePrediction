@@ -1,0 +1,7 @@
+disease_id,disease_name,slug,model_input_type
+1,Heart Disease,heart,Clinical/tabular prediction
+2,Liver Disease,liver,Clinical/laboratory prediction
+3,Kidney Disease (CKD),kidney,Clinical/laboratory prediction
+4,Thyroid Disease,thyroid,Clinical/laboratory prediction
+5,Lung Disease / Pneumonia,lung,Chest X-ray prediction
+6,Parkinson's Disease,parkinsons,Voice/audio prediction

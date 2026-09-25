@@ -1,0 +1,7 @@
+streamlit
+pandas
+numpy
+scikit-learn==1.9.1
+tensorflow==2.21.0
+keras==3.14.0
+Pillow

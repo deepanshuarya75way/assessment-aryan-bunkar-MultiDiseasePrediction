@@ -1,0 +1,3 @@
+rule_id,disease_id,feature,operator,threshold,flag_type,message
+1,1,trestbps,>=,140,blood_pressure_flag,"Entered blood-pressure value is elevated; discuss the measurement with a healthcare professional, especially if repeated."
+2,1,chol,>,200,cholesterol_flag,Entered total cholesterol value is above the commonly used desirable level; discuss the result with a healthcare professional.

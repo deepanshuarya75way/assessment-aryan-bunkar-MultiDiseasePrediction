@@ -1,0 +1,43 @@
+guidance_id,disease_id,category,recommendation,scope
+1,1,consume,Emphasize vegetables and fruits as part of a balanced diet.,general
+2,1,consume,Choose whole grains and other minimally processed foods more often.,general
+3,1,consume,Prefer healthier unsaturated fats and appropriate lean protein sources.,general
+4,1,limit,"Limit excess sodium/salt, especially from processed and packaged foods.",general
+5,1,limit,Limit foods high in saturated and industrial trans fats.,general
+6,1,limit,Avoid tobacco use and exposure to tobacco smoke.,general
+7,1,lifestyle,Maintain regular physical activity appropriate to your health and fitness level.,general
+8,1,limit,Avoid harmful use of alcohol.,general
+9,1,seek_care,"If the screening result is concerning or you have symptoms, discuss the result with a healthcare professional.",general
+10,2,consume,"Choose a varied, balanced diet with vegetables, fruits, whole grains and appropriate protein sources.",general
+11,2,consume,"For fatty-liver-type conditions, favor lower-glycemic foods such as vegetables, fruits and whole grains.",condition_specific
+12,2,limit,"Limit foods and drinks high in added/simple sugars, especially sugary drinks.",condition_specific
+13,2,limit,Limit foods high in unhealthy fats and replace saturated/trans fats with healthier unsaturated fats where appropriate.,condition_specific
+14,2,limit,Avoid alcohol when liver disease requires complete abstinence; people with alcohol-associated liver disease or cirrhosis should stop alcohol completely.,condition_specific
+15,2,lifestyle,Maintain a healthy weight and regular physical activity where appropriate.,general
+16,2,limit,Do not start herbal or dietary supplements without discussing them with a healthcare professional.,general
+17,2,seek_care,The type of liver disease matters; discuss an abnormal screening result with a healthcare professional.,general
+18,3,consume,Choose mostly minimally processed foods and pay attention to sodium content.,general
+19,3,limit,"Limit excess sodium, especially from packaged, processed and restaurant foods.",general
+20,3,monitor,Potassium intake should be adjusted only when appropriate to kidney function and blood potassium results.,personalized
+21,3,monitor,Phosphorus intake may need adjustment depending on kidney function and blood phosphorus results.,personalized
+22,3,monitor,Protein intake may need to be individualized with a healthcare professional or dietitian.,personalized
+23,3,monitor,Fluid intake may need to be individualized; do not impose a universal fluid restriction.,personalized
+24,3,limit,Limit saturated and trans fats and favor healthier unsaturated fats.,general
+25,3,seek_care,"People with suspected CKD should discuss kidney function, electrolytes and diet with a healthcare professional.",general
+26,4,consume,"Eat a varied, balanced diet that meets normal nutrient needs.",general
+27,4,monitor,"Iodine is required for thyroid hormone production, but more iodine is not automatically better.",general
+28,4,limit,Do not self-prescribe iodine supplements or high-iodine seaweed products for hypothyroidism.,condition_specific
+29,4,monitor,People taking thyroid hormone medicine should follow their clinician's instructions about timing and food/medication interactions.,treatment
+30,4,seek_care,Hypothyroidism should be evaluated with appropriate clinical assessment and laboratory testing.,general
+31,5,consume,Maintain adequate fluids and a balanced diet as tolerated during respiratory illness.,general
+32,5,lifestyle,Get adequate rest while recovering from acute respiratory illness.,general
+33,5,limit,Avoid smoking and exposure to secondhand smoke.,general
+34,5,limit,Avoid unnecessary exposure to respiratory irritants such as heavy smoke and fumes.,general
+35,5,seek_care,A chest-X-ray ML result should not be treated as a standalone diagnosis; seek clinical evaluation when symptoms or concerning results are present.,general
+36,6,consume,"Choose a varied, nutrient-rich diet with vegetables, fruits, whole grains, legumes and appropriate protein sources.",general
+37,6,consume,"Fiber-rich foods and adequate fluids may help with constipation, a common issue in Parkinson's disease.",condition_specific
+38,6,consume,Drink adequate fluids unless a healthcare professional has advised a fluid restriction.,general
+39,6,limit,Limit excess added sugar and highly processed foods.,general
+40,6,limit,"Limit alcohol, especially when it could interact with medicines or worsen sleep/balance problems.",treatment
+41,6,monitor,Some people may need individualized meal timing or protein/medication guidance; discuss this with the treating clinician.,treatment
+42,6,seek_care,Voice-model screening is not a diagnosis; discuss concerning results with a qualified healthcare professional.,general

@@ -1,0 +1,10 @@
+source_id,disease_id,organization,title,url
+1,1,WHO,Cardiovascular diseases,https://www.who.int/en/health-topics/hypertension/cardiovascular-diseases
+2,1,WHO,Healthy diet,https://www.who.int/news-room/fact-sheets/detail/healthy-diet
+3,1,WHO,Sodium reduction,https://www.who.int/news-room/fact-sheets/detail/sodium-reduction
+4,2,NIDDK,"Eating, Diet, & Nutrition for NAFLD & NASH",https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/eating-diet-nutrition
+5,2,NIDDK,Treatment for Cirrhosis,https://www.niddk.nih.gov/health-information/liver-disease/cirrhosis/treatment
+6,3,NIDDK,Healthy Eating for Adults with Chronic Kidney Disease,https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease
+7,4,NIDDK,Hypothyroidism (Underactive Thyroid),https://www.niddk.nih.gov/health-information/endocrine-diseases/hypothyroidism
+8,6,Parkinson's Foundation,Diet & Nutrition,https://www.parkinson.org/living-with-parkinsons/management/diet-nutrition
+9,0,NIDDK,Health Tips for Adults,https://www.niddk.nih.gov/health-information/weight-management/healthy-eating-physical-activity-for-life/health-tips-for-adults
