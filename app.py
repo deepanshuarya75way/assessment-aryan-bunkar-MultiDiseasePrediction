@@ -4,6 +4,7 @@ import pandas as pd
 import tensorflow as tf
 import numpy as np
 from PIL import Image
+from pymongo import MongoClient 
 
 from guidance.guidance_engine import GuidanceEngine
 
@@ -11,6 +12,10 @@ from guidance.guidance_engine import GuidanceEngine
 # =========================================================
 # Page configuration
 # =========================================================
+client = MongoClient("mongodb://localhost:27017/")
+db = client("MultidiseasePrediction")
+feedback_collection = db("feedback")
+
 
 st.set_page_config(
     page_title="Multi Disease Prediction",
